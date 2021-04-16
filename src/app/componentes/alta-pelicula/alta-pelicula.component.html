@@ -1,0 +1,9 @@
+<h2>Alta de pelicula<h2>
+<div style="padding: 5px;" *ngIf="peliculaNueva">
+  <input type="text" [(ngModel)]="this.peliculaNueva.nombre">
+  <button (click)="guardarNuevaPelicula()">Crear</button>
+</div>
+<div *ngIf="!peliculaNueva">
+  <button (click)="hacerNuevaPelicula()">Nueva pelicula</button>
+</div>
+

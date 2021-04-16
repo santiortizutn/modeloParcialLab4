@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <div class="container">
+    <ul>
+      <li class="padding" *ngFor="let pelicula of this.peliculas">
+        <span class="padding">{{pelicula.nombre}}</span>
+        <button class="btn btn-secondary btn-sm" (click)="seleccionPelicula(pelicula)">seleccionar</button>
+      </li>
+    </ul>
+  </div>
+</div>
