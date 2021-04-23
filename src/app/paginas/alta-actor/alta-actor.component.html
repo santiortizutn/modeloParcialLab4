@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 order-md-2 mb-4">
+      <app-tabla-paises></app-tabla-paises>
+    </div>
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Formulario de actores</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Apellido</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email">Correo electronico</label>
+          <input type="email" class="form-control" id="email" placeholder="">
+        </div>
+
+        <div class="mb-3">
+          <label for="address2">Edad</label>
+          <input type="text" class="form-control" id="address2" placeholder="">
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="state">Sexo</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Elige...</option>
+              <option>Femenino</option>
+              <option>Masculino</option>
+            </select>
+          </div>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="same-address">
+          <label class="custom-control-label" for="same-address">Términos y condiciones</label>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Aceptar</button>
+      </form>
+    </div>
+  </div>
+
+</div>

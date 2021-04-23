@@ -15,7 +15,7 @@ export class BusquedaPeliculaComponent implements OnInit {
     this.listadoPeliculas = [
       {id: 0, nombre: "todopoderoso", tipo: "accion", fechaEstreno: "20/12/2010", cantidadPublico: 12000, foto:"https://technopatas.b-cdn.net/wp-content/uploads/Todopoderoso.jpg"},
       {id: 1, nombre: "papa se volvio loco", tipo: "comedia", fechaEstreno: "20/12/2010", cantidadPublico: 15000, foto:"https://resizing.flixster.com/zSoj_4v63qnysNhPBdkhz1u7CvA=/206x305/v2/https://flxt.tmsimg.com/assets/p8709552_p_v8_ad.jpg"},
-      {id: 3, nombre: "diario de una pasion", tipo: "amor", fechaEstreno: "20/12/2010", cantidadPublico: 100, foto:"https://pics.filmaffinity.com/the_notebook-565006977-large.jpg"},
+      {id: 3, nombre: "diario de una pasion", tipo: "amor", fechaEstreno: "20/12/2010", cantidadPublico: 100, foto:"https://www.tupuntodelatecnologia.com/wp-content/uploads/2019/05/diario-de-una-pasion-poster.png"},
     ]
    }
 
